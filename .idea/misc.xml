@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidApplications/PokeDex/app/src/main/res/drawable/arrow_back_24px.xml" value="0.2995" />
+        <entry key="..\:/AndroidApplications/PokeDex/app/src/main/res/layout/activity_detail.xml" value="0.34791666666666665" />
+        <entry key="..\:/AndroidApplications/PokeDex/app/src/main/res/layout/activity_main.xml" value="0.34791666666666665" />
+        <entry key="..\:/AndroidApplications/PokeDex/app/src/main/res/layout/item_pokemon.xml" value="0.34791666666666665" />
+        <entry key="..\:/AndroidApplications/PokeDex/app/src/main/res/layout/item_poketmon.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.178" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/drawable/arrow_back-24px.xml" value="0.295" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/drawable/arrow_back_24px.xml" value="0.2995" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/drawable/ic_arrow_white_24.xml" value="0.1795" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/drawable/ic_launcher_background.xml" value="0.295" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Public/PokeDex/app/src/main/res/layout/toolbar_home.xml" value="0.3138586956521739" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
