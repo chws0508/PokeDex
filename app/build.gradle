@@ -99,11 +99,13 @@ dependencies {
 
     //Paging
     def paging_version = "3.1.1"
-    implementation("androidx.paging:paging-runtime-ktx:$paging_version")
+    implementation("androidx.paging:paging-runtime:$paging_version")
+
 
     //Room
     implementation ("androidx.room:room-runtime:2.4.2")
     implementation ("androidx.room:room-ktx:2.4.2")
+    implementation("androidx.room:room-paging:2.4.2")
     kapt ("androidx.room:room-compiler:2.4.2")
 
     //Glide

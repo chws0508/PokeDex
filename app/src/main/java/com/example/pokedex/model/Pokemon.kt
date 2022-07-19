@@ -8,7 +8,7 @@ import com.squareup.moshi.JsonClass
 import kotlinx.parcelize.Parcelize
 
 //Pokemon
-@Entity
+@Entity(tableName = "pokemon")
 @Parcelize
 @JsonClass(generateAdapter = true)
 data class Pokemon(

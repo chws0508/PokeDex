@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.room.Room
 import com.example.pokedex.persistence.AppDatabase
 import com.example.pokedex.persistence.PokemonDao
+import com.example.pokedex.persistence.RemoteKeysDao
 import com.example.pokedex.persistence.TypeResponseConverter
 import com.squareup.moshi.Moshi
 import dagger.Module
@@ -21,7 +22,6 @@ object PersistenceModule {
     @Singleton
     fun provideAppDatabase(
         application: Application,
-        moshi: Moshi
     ): AppDatabase {
         return Room
             .databaseBuilder(
@@ -39,5 +39,13 @@ object PersistenceModule {
         appDatabase: AppDatabase
     ): PokemonDao {
         return appDatabase.pokemonDao()
+    }
+
+    @Provides
+    @Singleton
+    fun provideRemoteKeysDao(
+        appDatabase: AppDatabase
+    ): RemoteKeysDao {
+        return appDatabase.remoteKeyDao()
     }
 }

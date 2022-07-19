@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
-@Entity
+@Entity(tableName = "pokemonInfo")
 @JsonClass(generateAdapter = true)
 data class PokemonInfo(
     @field:Json(name = "id")  @PrimaryKey val id: Int,
